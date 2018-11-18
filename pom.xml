@@ -54,4 +54,17 @@
       </plugins>
     </pluginManagement>
   </build>
+	<distributionManagement>
+		<repository>
+			<id> deployment release </id>
+			<name> release </name>
+			<url>http://localhost:8081/repository/maven-releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id> deployment snapshot </id>
+			<name> release </name>
+			<url>http://localhost:8081/repository/maven-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+		
 </project>
